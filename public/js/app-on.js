@@ -16,8 +16,8 @@ jQuery(document).ready(function () {
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) { onMobile = true; }
 
 	if (onMobile === true) {
-        $('#home-section').css({background: 'url(images/background/1-1600x900.jpg) center top'});
-        $('#home-blog-section').css({background: 'url(images/background/1-1600x900.jpg) center top'});
+        $('#home-section').css({background: 'url(images/background/politicalCrowd.jpg) center top'});
+        $('#home-blog-section').css({background: 'url(images/background/politicalCrowd.jpg) center top'});
     } else {
         /* ==========================================================================
         Parallax
